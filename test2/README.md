@@ -90,7 +90,7 @@ SELECT * FROM zyf.myview;
 SELECT tablespace_name,FILE_NAME,BYTES/1024/1024 MB,MAXBYTES/1024/1024 MAX_MB,autoextensible FROM dba_data_files  WHERE  tablespace_name='USERS';
 ```
 
-users的表空间：<img src="C:\Users\琦紫\AppData\Roaming\Typora\typora-user-images\image-20210316124232496.png" alt="image-20210316124232496" style="zoom: 67%;" />
+users的表空间：<img src="README.assets/image-20210316124232496.png" alt="image-20210316124232496" style="zoom: 67%;" />
 
 ```sql
 SELECT a.tablespace_name "表空间名",Total/1024/1024 "大小MB",
@@ -103,4 +103,4 @@ SELECT a.tablespace_name "表空间名",Total/1024/1024 "大小MB",
  where  a.tablespace_name = b.tablespace_name;
 ```
 
-`![image-20210316124756177](C:\Users\琦紫\AppData\Roaming\Typora\typora-user-images\image-20210316124756177.png)s
+ ![image-20210316124756177](README.assets/image-20210316124756177.png)
